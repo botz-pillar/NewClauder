@@ -349,6 +349,6 @@ MIT — see [LICENSE](./LICENSE). Use it, fork it, share it, remix it for your o
 
 ## Who made this
 
-[Josh Botz](https://github.com/botz-pillar) — cloud security practitioner, builder of [AI Cloud Security Lab](https://aicloudsecuritylab.com), occasional writer of skills like this one.
+[Josh Botz](https://github.com/botz-pillar) — cloud security practitioner, builder of [AI Cloud Security Lab](https://www.skool.com/cloud-security-lab), occasional writer of skills like this one.
 
 If this helped you, the kindest thing you can do is tell one other person in IT or security who's struggling to get started with AI tools.
