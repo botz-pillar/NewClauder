@@ -1,0 +1,25 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-code-tour",
+  "description": "claude-code-tour — A friendly, role-aware onboarding tour for people brand-new to Claude Code.",
+  "owner": {
+    "name": "Josh Botz",
+    "url": "https://github.com/botz-pillar"
+  },
+  "plugins": [
+    {
+      "name": "claude-code-tour",
+      "description": "Interactive onboarding tour for users new to Claude Code, especially IT/InfoSec professionals (SOC, GRC, pentest, IT generalist, helpdesk-to-security) who may also be new to the terminal, GitHub, and AI agents. Role-aware, privacy-honest, teaches concepts in-flight while doing real work, and ends with one concrete artifact the user can point at.",
+      "author": {
+        "name": "Josh Botz",
+        "url": "https://github.com/botz-pillar"
+      },
+      "category": "education",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/botz-pillar/claude-code-tour.git"
+      },
+      "homepage": "https://github.com/botz-pillar/claude-code-tour"
+    }
+  ]
+}

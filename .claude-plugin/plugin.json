@@ -1,0 +1,24 @@
+{
+  "name": "claude-code-tour",
+  "version": "1.0.0",
+  "description": "A friendly, role-aware onboarding tour for people brand-new to Claude Code — built for IT and InfoSec folks who are also new to AI agents.",
+  "author": {
+    "name": "Josh Botz",
+    "url": "https://github.com/botz-pillar"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/botz-pillar/claude-code-tour",
+  "repository": "https://github.com/botz-pillar/claude-code-tour.git",
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "claude-code-skill",
+    "onboarding",
+    "tutorial",
+    "infosec",
+    "soc",
+    "grc",
+    "ai-agents",
+    "beginners"
+  ]
+}
