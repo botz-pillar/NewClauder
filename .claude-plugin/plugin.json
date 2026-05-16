@@ -1,5 +1,5 @@
 {
-  "name": "claude-code-tour",
+  "name": "new-clauder",
   "version": "1.0.0",
   "description": "A friendly, role-aware onboarding tour for people brand-new to Claude Code — built for IT and InfoSec folks who are also new to AI agents.",
   "author": {
@@ -7,8 +7,8 @@
     "url": "https://github.com/botz-pillar"
   },
   "license": "MIT",
-  "homepage": "https://github.com/botz-pillar/claude-code-tour",
-  "repository": "https://github.com/botz-pillar/claude-code-tour.git",
+  "homepage": "https://github.com/botz-pillar/NewClauder",
+  "repository": "https://github.com/botz-pillar/NewClauder.git",
   "keywords": [
     "claude-code",
     "claude-code-plugin",

@@ -1,9 +1,9 @@
 ---
-name: claude-code-tour
+name: new-clauder
 description: Interactive onboarding tour for users new to Claude Code, especially IT and InfoSec professionals (SOC analysts, GRC/compliance, pentesters, IT generalists, helpdesk-to-security career changers) who may also be new to the terminal, GitHub, and AI agents. Use this skill whenever a user signals they are getting started — phrases like "I'm new to Claude Code", "how do I use Claude Code", "walk me through Claude Code", "what can Claude Code do", "getting started", "first time using this", "I just installed Claude Code", "what should I try first", "is this for me", "teach me Claude Code", "Claude Code tutorial" — or shows confusion about core concepts (sessions, tools, slash commands, skills, hooks, MCP, agents, permissions) without naming a specific syntactic question. Do NOT trigger when a proficient user asks a specific configuration or syntax question ("how do I configure an MCP server with header auth", "what's the right hook event for X") — answer those directly. The tour is conversational, role-aware, privacy-honest, teaches concepts in-flight while doing real work, and ends with one concrete artifact the user can point at.
 ---
 
-# Claude Code Tour
+# NewClauder
 
 A guided, conversational onboarding for someone meeting Claude Code for the first time. Designed for IT and InfoSec people who may also be new to the terminal, GitHub, and AI agents — and who are quietly worried about looking dumb or breaking something.
 
@@ -224,12 +224,12 @@ Save to `~/.claude/memory/user_claude_code_onboarding.md` with frontmatter:
 ```markdown
 ---
 name: user-claude-code-onboarding
-description: User finished the claude-code-tour onboarding — role, terminal comfort, first artifact produced, suggested next step.
+description: User finished the new-clauder onboarding — role, terminal comfort, first artifact produced, suggested next step.
 metadata:
   type: user
 ---
 
-User finished the claude-code-tour onboarding on <YYYY-MM-DD>.
+User finished the new-clauder onboarding on <YYYY-MM-DD>.
 
 - **Role:** <SOC / GRC / IT / pentest / helpdesk-to-security / dev / just trying it>
 - **Terminal comfort:** <never opened it / sometimes / lives in it>

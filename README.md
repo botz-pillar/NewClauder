@@ -1,4 +1,4 @@
-# Claude Code Tour
+# NewClauder
 
 **Get from install to your first useful Claude Code session in about 15 minutes — even if you've never touched a terminal.**
 
@@ -159,7 +159,7 @@ If `/help` does nothing or just prints `/help` as text, you're probably in the w
 
 ## 8. Install this tour
 
-Before you install: this plugin is a folder of plain markdown instructions plus a couple of supporting reference files. It makes no network calls, adds no tools to Claude Code, and requests no additional permissions. The source is at [github.com/botz-pillar/claude-code-tour](https://github.com/botz-pillar/claude-code-tour) — every file is human-readable.
+Before you install: this plugin is a folder of plain markdown instructions plus a couple of supporting reference files. It makes no network calls, adds no tools to Claude Code, and requests no additional permissions. The source is at [github.com/botz-pillar/NewClauder](https://github.com/botz-pillar/NewClauder) — every file is human-readable.
 
 > **Standing rule for any Claude Code plugin: read it before you install it.** This plugin's source is public and every file is plain markdown. The same discipline applies to *every* plugin you'll consider going forward — third-party plugins can install tools, request permissions, or include scripts. Trust nothing you can't read. This is the single most valuable security habit for working with an agentic AI tool.
 
@@ -168,17 +168,17 @@ Two commands. **Run them one at a time.** Type the first, press Enter, wait for 
 ### First command — type this, then press Enter:
 
 ```
-/plugin marketplace add botz-pillar/claude-code-tour
+/plugin marketplace add botz-pillar/NewClauder
 ```
 
-**You should see something like:** *"Marketplace 'claude-code-tour' added."* If you see anything else — an error, a red warning, nothing at all — copy the message and paste it back to Claude with *"what does this mean?"* — Claude is excellent at decoding its own errors.
+**You should see something like:** *"Marketplace 'new-clauder' added."* If you see anything else — an error, a red warning, nothing at all — copy the message and paste it back to Claude with *"what does this mean?"* — Claude is excellent at decoding its own errors.
 
 ---
 
 ### *Wait for that confirmation. Then* — type the second command:
 
 ```
-/plugin install claude-code-tour@claude-code-tour
+/plugin install new-clauder@new-clauder
 ```
 
 **You should see:** a confirmation that the plugin is installed, possibly with an approval prompt — say yes. The tour is now installed.
@@ -292,7 +292,7 @@ You don't need any of this for the tour. Bookmark this section for the *day afte
 → You pasted both install commands at once. Run them one at a time, with Enter between. See [section 8](#8-install-this-tour).
 
 **"It installed but the tour won't start."**
-→ Try one of the trigger phrases in [section 9](#9-start-the-tour) verbatim — exact wording like *"I'm new to Claude Code, walk me through it"* works best. If still nothing, type `/claude-code-tour` directly to force it.
+→ Try one of the trigger phrases in [section 9](#9-start-the-tour) verbatim — exact wording like *"I'm new to Claude Code, walk me through it"* works best. If still nothing, type `/new-clauder` directly to force it.
 
 **"The installer asked for admin rights and I can't proceed."**
 → Your laptop is managed by IT. Go back to [section 2](#2-before-you-install) and check policy. Don't enter someone else's credentials.
@@ -301,28 +301,28 @@ You don't need any of this for the tour. Bookmark this section for the *day afte
 → Copy the message, paste it into the Claude Code chat, ask *"what does this mean and how do I fix it?"* Claude is good at this. Genuinely.
 
 **"How do I uninstall the tour?"**
-→ `/plugin uninstall claude-code-tour`. Nothing else stays on your machine.
+→ `/plugin uninstall new-clauder`. Nothing else stays on your machine.
 
 **"Something is broken and the above didn't help."**
-→ [Open a GitHub issue](https://github.com/botz-pillar/claude-code-tour/issues) (need a free GitHub account — see [section 13](#13-helpful-links-for-beginners) if you don't have one yet), or **email josh@pillarsecurity.io** — you don't need GitHub.
+→ [Open a GitHub issue](https://github.com/botz-pillar/NewClauder/issues) (need a free GitHub account — see [section 13](#13-helpful-links-for-beginners) if you don't have one yet), or **email josh@pillarsecurity.io** — you don't need GitHub.
 
 ---
 
 ## Privacy
 
-- **This plugin makes no network calls of its own.** It's a folder of markdown instructions that Claude reads when you start the tour. No analytics, no telemetry, no third-party services. The repo is public at [github.com/botz-pillar/claude-code-tour](https://github.com/botz-pillar/claude-code-tour) — every file is readable before you install.
+- **This plugin makes no network calls of its own.** It's a folder of markdown instructions that Claude reads when you start the tour. No analytics, no telemetry, no third-party services. The repo is public at [github.com/botz-pillar/NewClauder](https://github.com/botz-pillar/NewClauder) — every file is readable before you install.
 - **Your conversation with Claude is governed by Anthropic's terms.** The plugin doesn't change that — see the [Trust Center](https://trust.anthropic.com/) for data handling, retention, and zero-retention enterprise options.
 - **The tour writes one memory note at the end.** Here's exactly what gets written, structurally:
 
 ```markdown
 ---
 name: user-claude-code-onboarding
-description: User finished the claude-code-tour onboarding — role, terminal comfort, first artifact produced, suggested next step.
+description: User finished the new-clauder onboarding — role, terminal comfort, first artifact produced, suggested next step.
 metadata:
   type: user
 ---
 
-User finished the claude-code-tour onboarding on <YYYY-MM-DD>.
+User finished the new-clauder onboarding on <YYYY-MM-DD>.
 
 - **Role:** <SOC / GRC / IT / pentest / helpdesk-to-security / dev / just trying it>
 - **Terminal comfort:** <never opened it / sometimes / lives in it>
@@ -337,7 +337,7 @@ No conversation content. Delete the file any time from `~/.claude/memory/user_cl
 
 ## Feedback & contact
 
-- **Found a bug or have an idea?** [Open a GitHub issue](https://github.com/botz-pillar/claude-code-tour/issues).
+- **Found a bug or have an idea?** [Open a GitHub issue](https://github.com/botz-pillar/NewClauder/issues).
 - **Never used GitHub before?** Email **josh@pillarsecurity.io** — happy to hear it. I read every message and try to reply within a week. If something is broken for you, you're not the only one — write me and I'll fix it.
 - **Want to share what you built during the tour?** Same email. I love seeing first-day artifacts.
 
